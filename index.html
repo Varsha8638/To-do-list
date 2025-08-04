@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TO-DO-LIST</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+</head>
+<body>
+  <div class="container">
+    <div class="todo-app">
+
+      <!-- Details Section with Flex -->
+      <div class="details">
+        <!-- Left side: Heading + message + progress bar -->
+        <div class="progress-section">
+          <h2>To-Do List <img src="images/icon_2.png" alt="icon"></h2>
+          <p>Keep it up!</p>
+          <div id="progressBar">
+            <div id="progress">
+              <span id="progressText">66%</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right side: Circular stats -->
+        <div id="numbers">2/3</div>
+      </div>
+
+      <!-- Input row -->
+      <div class="row">
+        <input type="text" id="input-box" placeholder="Add your Task">
+        <button onclick="addTask()">Add</button>
+      </div>
+
+      <!-- Task list -->
+      <ul id="list-container">
+        <!-- Tasks will go here -->
+      </ul>
+
+    </div>
+  </div>
+  <div id="congratsModal" class="modal">
+  <div class="modal-content">
+    <h2>🎉 Congratulations!</h2>
+    <p>All tasks completed!</p>
+    <button onclick="closeModal()">Close</button>
+  </div>
+</div>
+
+
+  <script src="index.js"></script>
+</body>
+</html>
