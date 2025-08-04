@@ -18,7 +18,7 @@ This project helps users manage daily tasks efficiently — add, check off, and 
 
 ## 🚀 Live Demo
 
-You can try the live app here: [https://my-to-do-list-app001.netlify.app/](Link)  
+You can try the live app here: [Link](https://my-to-do-list-app001.netlify.app/)  
 
 ---
 
